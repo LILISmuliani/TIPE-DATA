@@ -1,0 +1,33 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+	int nama;
+	string nim = " ETE10190097 ";
+	char nilai = 'A';
+	float tinggiBadan;
+	float beratBadan;
+	bool hasil = true;
+	double pengurangan (double tinggiBadan, double rumus)
+	{
+	return tinggiBadan - rumus;
+	}
+
+int main (){
+	cout<< " Masukkan nama "<<endl;
+	cin>> nama;
+	cout<< " Nilai : "<< nilai;
+	tinggiBadan = 165.5;
+	beratBadan = 45.5;
+	cout<< endl;
+	cout<< " NIM : "<< nim;
+	cout<< endl;
+	cout<< " Tinggi Badan : "<< tinggiBadan;
+	cout<< endl;
+	cout<< " Berat Badan : "<< beratBadan;
+	cout<< endl;
+	cout << " Hasil : "<< hasil;
+	cout<< endl;
+	cout<< " Ini Adalah Hasil Berat Badan Ideal"<< endl;
+	cout<< pengurangan (165.5, 100);
+}
